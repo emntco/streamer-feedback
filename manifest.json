@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Streamer Feedback",
+  "version": "0.2",
+  "description": "Leave feedback for Twitch streamers",
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://sf.emnt.co/*",
+    "https://id.twitch.tv/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.ico",
+      "48": "images/icon48.ico",
+      "128": "images/icon128.ico"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.ico",
+    "48": "images/icon48.ico",
+    "128": "images/icon128.ico"
+  }
+}
