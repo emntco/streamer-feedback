@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Streamer Feedback by @emntco",
-  "version": "0.3",
+  "name": "Streamer Feedback",
+  "version": "0.5",
   "description": "Leave feedback for Twitch streamers!",
   "permissions": [
     "identity",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
-    "https://sf.emnt.co/*"
+    "https://sf.emnt.co/*",
+    "https://id.twitch.tv/*"
   ],
   "action": {
     "default_popup": "popup.html",
