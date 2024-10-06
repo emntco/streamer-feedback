@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    checkIfOnTwitchChannel();
     const loginButton = document.getElementById('login-button');
     const logoutButton = document.getElementById('logout-button');
     const loginContainer = document.getElementById('login-container');
@@ -26,6 +27,41 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+function checkIfOnTwitchChannel() {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs[0] && tabs[0].url && tabs[0].url.includes('twitch.tv')) {
+            chrome.runtime.sendMessage({ action: "checkTwitchChannel", path: new URL(tabs[0].url).pathname }, (response) => {
+                if (chrome.runtime.lastError) {
+                    console.error(chrome.runtime.lastError);
+                    disableFeedbackForm();
+                    return;
+                }
+                if (response && response.isChannel) {
+                    enableFeedbackForm();
+                } else {
+                    disableFeedbackForm();
+                }
+            });
+        } else {
+            disableFeedbackForm();
+        }
+    });
+}
+
+function enableFeedbackForm() {
+    const feedbackForm = document.getElementById('feedback-form');
+    const notOnChannelMessage = document.getElementById('not-on-channel-message');
+    if (feedbackForm) feedbackForm.style.display = 'block';
+    if (notOnChannelMessage) notOnChannelMessage.style.display = 'none';
+}
+
+function disableFeedbackForm() {
+    const feedbackForm = document.getElementById('feedback-form');
+    const notOnChannelMessage = document.getElementById('not-on-channel-message');
+    if (feedbackForm) feedbackForm.style.display = 'none';
+    if (notOnChannelMessage) notOnChannelMessage.style.display = 'block';
+}
 
 function checkAuthStatus() {
     chrome.runtime.sendMessage({ action: "checkAuthStatus" }, (response) => {

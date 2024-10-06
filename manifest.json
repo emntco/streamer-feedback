@@ -23,6 +23,12 @@
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["content.js"]
+    }
+  ],
   "icons": {
     "16": "images/icon16.ico",
     "48": "images/icon48.ico",

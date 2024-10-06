@@ -3,11 +3,19 @@ let authInProgress = false;
 let authTabId = null;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    console.log("Message received:", request);
+    console.log("Message received:", request);
     if (request.action === "initiateAuth") {
         initiateAuth();
     } else if (request.action === "checkAuthStatus") {
         checkAuthStatus(sendResponse);
         return true; // Indicates that the response is sent asynchronously
+    } else if (request.action === "checkTwitchChannel") {
+        checkIfTwitchChannel(request.path, sendResponse);
+        return true; // Keep the message channel open for async response
+    } else if (request.action === "checkTwitchChannel") {
+        checkIfTwitchChannel(request.path, sendResponse);
+        return true; // Keep the message channel open for async response
     }
 });
 
@@ -125,4 +133,28 @@ function validateTwitchToken(token, sendResponse) {
             console.error('Error validating token:', error);
             sendResponse({ isAuthenticated: false });
         });
+}
+
+function checkIfTwitchChannel(path, sendResponse) {
+    const username = path.split('/').filter(Boolean).pop()
+    chrome.storage.local.get('accessToken', (data) => {
+        if (data.accessToken) {
+            fetch(`${BACKEND_URL}?action=checkTwitchChannel&username=${encodeURIComponent(username)}`, {
+                headers: {
+                    'Authorization': `Bearer ${data.accessToken}`
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                sendResponse({ isChannel: data.isChannel });
+            })
+            .catch(error => {
+                console.error('Error checking Twitch channel:', error);
+                sendResponse({ isChannel: false });
+            });
+        } else {
+            sendResponse({ isChannel: false });
+        }
+    });
+    return true; // Keep the message channel open for async response
 }
