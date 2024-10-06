@@ -1,0 +1,13 @@
+{
+    "name": "emntco/streamer-feedback",
+    "description": "Leave feedback for Twitch streamers.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "authors": [
+        {
+            "name": "emnt.co"
+        }
+    ]
+}

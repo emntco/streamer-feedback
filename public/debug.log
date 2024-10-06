@@ -1,0 +1,730 @@
+[2024-09-25 08:50:54] Script started
+[2024-09-25 08:50:54] No action specified
+[2024-09-25 12:55:45] Script started
+[2024-09-25 12:55:45] No action specified
+[2024-09-25 13:52:29] Script started
+[2024-09-25 13:52:29] No action specified
+[2024-09-25 13:52:30] Script started
+[2024-09-25 13:52:30] No action specified
+[2024-09-25 13:52:31] Script started
+[2024-09-25 13:52:31] No action specified
+[2024-09-25 16:23:02] Script started
+[2024-09-25 16:23:02] No action specified
+[2024-09-25 17:45:53] Script started
+[2024-09-25 17:45:53] No action specified
+[2024-09-25 18:21:24] Script started
+[2024-09-25 18:21:24] No action specified
+[2024-09-25 20:48:29] Script started
+[2024-09-25 20:48:29] No action specified
+[2024-09-26 03:07:30] Script started
+[2024-09-26 03:07:30] No action specified
+[2024-09-26 03:54:01] Script started
+[2024-09-26 03:54:01] No action specified
+[2024-09-26 06:31:31] Script started
+[2024-09-26 06:31:31] No action specified
+[2024-09-26 06:31:31] Script started
+[2024-09-26 06:31:31] No action specified
+[2024-09-26 08:02:03] Script started
+[2024-09-26 08:02:03] No action specified
+[2024-09-26 16:39:09] Script started
+[2024-09-26 16:39:09] No action specified
+[2024-09-26 16:39:09] Script started
+[2024-09-26 16:39:09] No action specified
+[2024-09-26 16:39:09] Script started
+[2024-09-26 16:39:09] No action specified
+[2024-09-26 16:39:10] Script started
+[2024-09-26 16:39:10] No action specified
+[2024-09-26 16:39:10] Script started
+[2024-09-26 16:39:10] No action specified
+[2024-09-26 16:39:11] Script started
+[2024-09-26 16:39:11] No action specified
+[2024-09-26 16:39:11] Script started
+[2024-09-26 16:39:11] No action specified
+[2024-09-26 16:39:11] Script started
+[2024-09-26 16:39:11] No action specified
+[2024-09-26 16:39:13] Script started
+[2024-09-26 16:39:13] No action specified
+[2024-09-26 17:40:13] Script started
+[2024-09-26 17:40:13] No action specified
+[2024-09-27 03:28:41] Script started
+[2024-09-27 03:28:41] No action specified
+[2024-09-27 13:35:09] Script started
+[2024-09-27 13:35:09] No action specified
+[2024-09-27 16:12:48] Script started
+[2024-09-27 16:12:48] No action specified
+[2024-09-27 16:52:26] Script started
+[2024-09-27 16:52:26] No action specified
+[2024-09-28 03:32:42] Script started
+[2024-09-28 03:32:42] No action specified
+[2024-09-28 14:17:40] Script started
+[2024-09-28 14:17:40] No action specified
+[2024-09-28 17:27:47] Script started
+[2024-09-28 17:27:47] No action specified
+[2024-09-28 17:59:30] Script started
+[2024-09-28 17:59:30] No action specified
+[2024-09-29 00:49:01] Script started
+[2024-09-29 00:49:01] No action specified
+[2024-09-29 03:42:38] Script started
+[2024-09-29 03:42:38] No action specified
+[2024-09-29 05:52:36] Script started
+[2024-09-29 05:52:36] No action specified
+[2024-09-29 05:52:40] Script started
+[2024-09-29 05:52:40] No action specified
+[2024-09-29 05:53:58] Script started
+[2024-09-29 05:53:58] No action specified
+[2024-09-29 05:54:16] Script started
+[2024-09-29 05:54:16] No action specified
+[2024-09-29 05:54:23] Script started
+[2024-09-29 05:54:23] No action specified
+[2024-09-29 06:57:12] Script started
+[2024-09-29 06:57:12] No action specified
+[2024-09-29 13:13:32] Script started
+[2024-09-29 13:13:32] Action received: validateToken
+[2024-09-29 13:13:32] Validating token: ob5sxyknj3...
+[2024-09-29 13:13:32] Token validation result: invalid
+[2024-09-29 13:46:50] Script started
+[2024-09-29 13:46:50] Action received: validateToken
+[2024-09-29 13:46:50] Validating token: ob5sxyknj3...
+[2024-09-29 13:46:50] Token validation result: invalid
+[2024-09-29 13:46:52] Script started
+[2024-09-29 13:46:52] Action received: getAuthUrl
+[2024-09-29 13:46:52] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=0f960d3e11140ff9832e407dd53072b1
+[2024-09-29 13:46:54] Script started
+[2024-09-29 13:46:54] Action received: handleCallback
+[2024-09-29 13:46:54] Handling callback with code: gigtridj2x9mkucjow8obty5eq74xs
+[2024-09-29 13:46:54] Token received: nsdt0qrz1e5rww2d5w1qimm6x5s26a
+[2024-09-29 13:46:56] Script started
+[2024-09-29 13:46:56] Action received: validateToken
+[2024-09-29 13:46:56] Validating token: nsdt0qrz1e...
+[2024-09-29 13:46:56] Token validation result: valid
+[2024-09-29 13:46:59] Script started
+[2024-09-29 13:46:59] Action received: validateToken
+[2024-09-29 13:46:59] Validating token: nsdt0qrz1e...
+[2024-09-29 13:46:59] Token validation result: valid
+[2024-09-29 17:30:53] Script started
+[2024-09-29 17:30:53] No action specified
+[2024-09-30 01:20:48] Script started
+[2024-09-30 01:20:48] No action specified
+[2024-09-30 03:59:28] Script started
+[2024-09-30 03:59:28] No action specified
+[2024-09-30 17:36:56] Script started
+[2024-09-30 17:36:56] No action specified
+[2024-09-30 19:20:19] Script started
+[2024-09-30 19:20:19] No action specified
+[2024-09-30 21:53:26] Script started
+[2024-09-30 21:53:26] No action specified
+[2024-10-03 04:20:31] Script started
+[2024-10-03 04:20:31] No action specified
+[2024-10-03 16:58:34] Script started
+[2024-10-03 16:58:34] No action specified
+[2024-10-03 23:39:06] Script started
+[2024-10-03 23:39:06] No action specified
+[2024-10-04 09:29:35] Script started
+[2024-10-04 09:29:35] No action specified
+[2024-10-05 01:51:23] Script started
+[2024-10-05 01:51:23] No action specified
+[2024-10-05 05:38:44] Script started
+[2024-10-05 05:38:44] No action specified
+[2024-10-05 06:48:50] Script started
+[2024-10-05 06:48:50] No action specified
+[2024-10-05 19:03:14] Script started
+[2024-10-05 19:03:14] Action received: getAuthUrl
+[2024-10-05 19:03:14] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=4fdd6e13d2d3f24236f876d31afff05c
+[2024-10-05 19:03:15] Script started
+[2024-10-05 19:03:15] Action received: handleCallback
+[2024-10-05 19:03:15] Handling callback with code: gpvhcha7b9y1plkf6jw65xijafjirt
+[2024-10-05 19:03:16] Token received: 6htdt6tebo5ckpx99cz4ucoxsfbijm
+[2024-10-05 19:03:17] Script started
+[2024-10-05 19:03:17] Action received: validateToken
+[2024-10-05 19:03:17] Validating token: 6htdt6tebo...
+[2024-10-05 19:03:17] Token validation result: valid
+[2024-10-05 19:03:34] Script started
+[2024-10-05 19:03:34] Action received: getAuthUrl
+[2024-10-05 19:03:34] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=259266b9b211cd51aa27c019d2cb749d
+[2024-10-05 19:03:35] Script started
+[2024-10-05 19:03:35] Action received: handleCallback
+[2024-10-05 19:03:35] Handling callback with code: gi1tk89rqu1r3a4i2koy519c21j6k2
+[2024-10-05 19:03:35] Token received: sckgyeiwt1ue1ulsl05q8tv72yu3fq
+[2024-10-05 19:03:38] Script started
+[2024-10-05 19:03:38] No action specified
+[2024-10-05 19:03:41] Script started
+[2024-10-05 19:03:41] Action received: validateToken
+[2024-10-05 19:03:41] Validating token: sckgyeiwt1...
+[2024-10-05 19:03:42] Token validation result: valid
+[2024-10-05 19:03:44] Script started
+[2024-10-05 19:03:44] Action received: getAuthUrl
+[2024-10-05 19:03:44] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=0f83b66755509ba1a06dfee17b2b4c27
+[2024-10-05 19:03:45] Script started
+[2024-10-05 19:03:45] Action received: handleCallback
+[2024-10-05 19:03:45] Handling callback with code: 6j5jdm52ziacirjre748o2bzlguwbk
+[2024-10-05 19:03:45] Token received: tf7lpsikuzqr2in5ltvltvsnom37pf
+[2024-10-05 19:03:47] Script started
+[2024-10-05 19:03:47] Action received: validateToken
+[2024-10-05 19:03:47] Validating token: tf7lpsikuz...
+[2024-10-05 19:03:48] Token validation result: valid
+[2024-10-05 19:03:51] Script started
+[2024-10-05 19:03:51] Action received: getAuthUrl
+[2024-10-05 19:03:51] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=163afc7c8f60f4f0d106954d021a97d2
+[2024-10-05 19:03:52] Script started
+[2024-10-05 19:03:52] Action received: handleCallback
+[2024-10-05 19:03:52] Handling callback with code: rcqni2q3i0c4i0t08nijokompwo9x0
+[2024-10-05 19:03:53] Token received: 00wghfbb4c8kgwg843m8rzprplunif
+[2024-10-05 19:03:55] Script started
+[2024-10-05 19:03:55] Action received: validateToken
+[2024-10-05 19:03:55] Validating token: 00wghfbb4c...
+[2024-10-05 19:03:56] Token validation result: valid
+[2024-10-05 19:04:42] Script started
+[2024-10-05 19:04:42] Action received: getAuthUrl
+[2024-10-05 19:04:42] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=23312b56502476041a8171fa1ba4cdc9
+[2024-10-05 19:04:44] Script started
+[2024-10-05 19:04:44] Action received: handleCallback
+[2024-10-05 19:04:44] Handling callback with code: pzsxm4ms17srxi1ehehb485usvqbao
+[2024-10-05 19:04:45] Token received: 8gnj028uwo4k5l7l5e8y2p9zi212vs
+[2024-10-05 19:04:49] Script started
+[2024-10-05 19:04:49] Action received: validateToken
+[2024-10-05 19:04:49] Validating token: 8gnj028uwo...
+[2024-10-05 19:04:50] Token validation result: valid
+[2024-10-05 19:05:16] Script started
+[2024-10-05 19:05:16] Action received: validateToken
+[2024-10-05 19:05:16] Validating token: 8gnj028uwo...
+[2024-10-05 19:05:16] Token validation result: valid
+[2024-10-05 19:05:17] Script started
+[2024-10-05 19:05:17] Action received: validateToken
+[2024-10-05 19:05:17] Validating token: 8gnj028uwo...
+[2024-10-05 19:05:18] Token validation result: valid
+[2024-10-05 19:19:42] Script started
+[2024-10-05 19:19:42] Action received: validateToken
+[2024-10-05 19:19:42] Validating token: 8gnj028uwo...
+[2024-10-05 19:19:43] Token validation result: valid
+[2024-10-05 19:19:46] Script started
+[2024-10-05 19:19:46] Action received: validateToken
+[2024-10-05 19:19:46] Validating token: 8gnj028uwo...
+[2024-10-05 19:19:46] Token validation result: valid
+[2024-10-05 19:19:52] Script started
+[2024-10-05 19:19:52] Action received: validateToken
+[2024-10-05 19:19:52] Validating token: 8gnj028uwo...
+[2024-10-05 19:19:52] Token validation result: valid
+[2024-10-05 19:22:44] Script started
+[2024-10-05 19:22:44] Action received: validateToken
+[2024-10-05 19:22:44] Validating token: 8gnj028uwo...
+[2024-10-05 19:22:44] Token validation result: valid
+[2024-10-05 19:28:31] Script started
+[2024-10-05 19:28:31] Action received: validateToken
+[2024-10-05 19:28:31] Validating token: 8gnj028uwo...
+[2024-10-05 19:28:32] Token validation result: valid
+[2024-10-05 19:28:50] Script started
+[2024-10-05 19:28:50] Action received: validateToken
+[2024-10-05 19:28:50] Validating token: 8gnj028uwo...
+[2024-10-05 19:28:51] Token validation result: valid
+[2024-10-05 19:31:42] Script started
+[2024-10-05 19:31:42] Action received: validateToken
+[2024-10-05 19:31:42] Validating token: 8gnj028uwo...
+[2024-10-05 19:31:43] Token validation result: valid
+[2024-10-05 19:31:45] Script started
+[2024-10-05 19:31:45] Action received: getAuthUrl
+[2024-10-05 19:31:45] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=1fde081815e50f983c5d028ecaaed57f
+[2024-10-05 19:31:46] Script started
+[2024-10-05 19:31:46] Action received: handleCallback
+[2024-10-05 19:31:46] Handling callback with code: papvntww2zmv7pcouqdygn6jifoq3p
+[2024-10-05 19:31:47] Token received: w1aruvkihi5la375l34q9mgfkv0f8t
+[2024-10-05 19:31:48] Script started
+[2024-10-05 19:31:48] Action received: validateToken
+[2024-10-05 19:31:48] Validating token: w1aruvkihi...
+[2024-10-05 19:31:48] Token validation result: valid
+[2024-10-05 19:33:09] Script started
+[2024-10-05 19:33:09] Action received: validateToken
+[2024-10-05 19:33:09] Validating token: w1aruvkihi...
+[2024-10-05 19:33:10] Token validation result: valid
+[2024-10-05 20:09:40] Script started
+[2024-10-05 20:09:40] Action received: validateToken
+[2024-10-05 20:09:40] Validating token: w1aruvkihi...
+[2024-10-05 20:09:41] Token validation result: valid
+[2024-10-05 20:11:32] Script started
+[2024-10-05 20:11:32] Action received: validateToken
+[2024-10-05 20:11:32] Validating token: w1aruvkihi...
+[2024-10-05 20:11:32] Token validation result: valid
+[2024-10-05 20:11:48] Script started
+[2024-10-05 20:11:48] Action received: validateToken
+[2024-10-05 20:11:48] Validating token: w1aruvkihi...
+[2024-10-05 20:11:49] Token validation result: valid
+[2024-10-06 01:02:58] Script started
+[2024-10-06 01:02:58] Action received: validateToken
+[2024-10-06 01:02:58] Validating token: w1aruvkihi...
+[2024-10-06 01:02:58] Token validation result: invalid
+[2024-10-06 01:03:00] Script started
+[2024-10-06 01:03:00] Action received: getAuthUrl
+[2024-10-06 01:03:00] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=6a580037a4f91d8e94a4125ee00c54e7
+[2024-10-06 01:03:01] Script started
+[2024-10-06 01:03:01] Action received: handleCallback
+[2024-10-06 01:03:01] Handling callback with code: ltju5echtttug802rly80z9qilnnmm
+[2024-10-06 01:03:02] Token received: fkrzlo04fno9calvt20wtmi5a6kcz3
+[2024-10-06 01:03:03] Script started
+[2024-10-06 01:03:03] Action received: validateToken
+[2024-10-06 01:03:03] Validating token: fkrzlo04fn...
+[2024-10-06 01:03:03] Token validation result: valid
+[2024-10-06 01:03:06] Script started
+[2024-10-06 01:03:06] Action received: validateToken
+[2024-10-06 01:03:06] Validating token: fkrzlo04fn...
+[2024-10-06 01:03:07] Token validation result: valid
+[2024-10-06 01:05:08] Script started
+[2024-10-06 01:05:08] Action received: validateToken
+[2024-10-06 01:05:08] Validating token: fkrzlo04fn...
+[2024-10-06 01:05:08] Token validation result: valid
+[2024-10-06 01:10:26] Script started
+[2024-10-06 01:10:26] Action received: validateToken
+[2024-10-06 01:10:26] Validating token: fkrzlo04fn...
+[2024-10-06 01:10:26] Token validation result: valid
+[2024-10-06 01:14:14] Script started
+[2024-10-06 01:14:14] Action received: getAuthUrl
+[2024-10-06 01:14:14] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=300b84bb9b791c293f210f592efb9ece
+[2024-10-06 01:14:15] Script started
+[2024-10-06 01:14:15] Action received: handleCallback
+[2024-10-06 01:14:15] Handling callback with code: ol7kyvncsigp2e7plaa329x9h6t7of
+[2024-10-06 01:14:15] Token received: hurgql4uob1yppirlskf7n9ftobqkp
+[2024-10-06 01:14:18] Script started
+[2024-10-06 01:14:18] Action received: validateToken
+[2024-10-06 01:14:18] Validating token: hurgql4uob...
+[2024-10-06 01:14:18] Token validation result: valid
+[2024-10-06 01:17:30] Script started
+[2024-10-06 01:17:30] Action received: validateToken
+[2024-10-06 01:17:30] Validating token: hurgql4uob...
+[2024-10-06 01:17:30] Token validation result: valid
+[2024-10-06 01:17:33] Script started
+[2024-10-06 01:17:33] Action received: validateToken
+[2024-10-06 01:17:33] Validating token: hurgql4uob...
+[2024-10-06 01:17:33] Token validation result: valid
+[2024-10-06 01:17:49] Script started
+[2024-10-06 01:17:49] Action received: validateToken
+[2024-10-06 01:17:49] Validating token: hurgql4uob...
+[2024-10-06 01:17:50] Token validation result: valid
+[2024-10-06 01:20:57] Script started
+[2024-10-06 01:20:57] Action received: validateToken
+[2024-10-06 01:20:57] Validating token: hurgql4uob...
+[2024-10-06 01:20:57] Token validation result: valid
+[2024-10-06 01:23:42] Script started
+[2024-10-06 01:23:42] Action received: validateToken
+[2024-10-06 01:23:42] Validating token: hurgql4uob...
+[2024-10-06 01:23:42] Token validation result: valid
+[2024-10-06 01:23:45] Script started
+[2024-10-06 01:23:45] Action received: validateToken
+[2024-10-06 01:23:45] Validating token: hurgql4uob...
+[2024-10-06 01:23:45] Token validation result: valid
+[2024-10-06 01:23:54] Script started
+[2024-10-06 01:23:54] Action received: validateToken
+[2024-10-06 01:23:54] Validating token: hurgql4uob...
+[2024-10-06 01:23:54] Token validation result: valid
+[2024-10-06 01:31:37] Script started
+[2024-10-06 01:31:37] Action received: validateToken
+[2024-10-06 01:31:37] Validating token: hurgql4uob...
+[2024-10-06 01:31:37] Token validation result: valid
+[2024-10-06 01:31:43] Script started
+[2024-10-06 01:31:43] Action received: validateToken
+[2024-10-06 01:31:43] Validating token: hurgql4uob...
+[2024-10-06 01:31:44] Token validation result: valid
+[2024-10-06 01:32:35] Script started
+[2024-10-06 01:32:35] Action received: validateToken
+[2024-10-06 01:32:35] Validating token: hurgql4uob...
+[2024-10-06 01:32:36] Token validation result: valid
+[2024-10-06 01:32:36] Script started
+[2024-10-06 01:32:36] Action received: validateToken
+[2024-10-06 01:32:36] Validating token: hurgql4uob...
+[2024-10-06 01:32:36] Script started
+[2024-10-06 01:32:36] Action received: validateToken
+[2024-10-06 01:32:36] Validating token: hurgql4uob...
+[2024-10-06 01:32:37] Token validation result: valid
+[2024-10-06 01:32:37] Token validation result: valid
+[2024-10-06 01:32:42] Script started
+[2024-10-06 01:32:42] Action received: validateToken
+[2024-10-06 01:32:42] Validating token: hurgql4uob...
+[2024-10-06 01:32:43] Token validation result: valid
+[2024-10-06 01:33:04] Script started
+[2024-10-06 01:33:04] Action received: validateToken
+[2024-10-06 01:33:04] Validating token: hurgql4uob...
+[2024-10-06 01:33:04] Token validation result: valid
+[2024-10-06 01:33:05] Script started
+[2024-10-06 01:33:05] Action received: validateToken
+[2024-10-06 01:33:05] Validating token: hurgql4uob...
+[2024-10-06 01:33:05] Token validation result: valid
+[2024-10-06 01:33:17] Script started
+[2024-10-06 01:33:17] Action received: validateToken
+[2024-10-06 01:33:17] Validating token: hurgql4uob...
+[2024-10-06 01:33:18] Token validation result: valid
+[2024-10-06 01:34:24] Script started
+[2024-10-06 01:34:24] Action received: validateToken
+[2024-10-06 01:34:24] Validating token: hurgql4uob...
+[2024-10-06 01:34:25] Token validation result: valid
+[2024-10-06 01:35:39] Script started
+[2024-10-06 01:35:39] Action received: validateToken
+[2024-10-06 01:35:39] Validating token: hurgql4uob...
+[2024-10-06 01:35:39] Token validation result: valid
+[2024-10-06 01:35:51] Script started
+[2024-10-06 01:35:51] Action received: validateToken
+[2024-10-06 01:35:51] Validating token: hurgql4uob...
+[2024-10-06 01:35:51] Token validation result: valid
+[2024-10-06 01:41:04] Script started
+[2024-10-06 01:41:04] Action received: validateToken
+[2024-10-06 01:41:04] Validating token: hurgql4uob...
+[2024-10-06 01:41:05] Token validation result: valid
+[2024-10-06 01:44:33] Script started
+[2024-10-06 01:44:33] Action received: validateToken
+[2024-10-06 01:44:33] Validating token: hurgql4uob...
+[2024-10-06 01:44:33] Token validation result: valid
+[2024-10-06 01:55:49] Script started
+[2024-10-06 01:55:49] Action received: validateToken
+[2024-10-06 01:55:49] Validating token: hurgql4uob...
+[2024-10-06 01:55:49] Token validation result: valid
+[2024-10-06 01:56:00] Script started
+[2024-10-06 01:56:00] Action received: validateToken
+[2024-10-06 01:56:00] Validating token: hurgql4uob...
+[2024-10-06 01:56:01] Token validation result: valid
+[2024-10-06 02:00:04] Script started
+[2024-10-06 02:00:04] Action received: validateToken
+[2024-10-06 02:00:04] Validating token: hurgql4uob...
+[2024-10-06 02:00:05] Token validation result: valid
+[2024-10-06 02:00:23] Script started
+[2024-10-06 02:00:23] Action received: validateToken
+[2024-10-06 02:00:23] Validating token: hurgql4uob...
+[2024-10-06 02:00:23] Token validation result: valid
+[2024-10-06 02:00:33] Script started
+[2024-10-06 02:00:33] Action received: validateToken
+[2024-10-06 02:00:33] Validating token: hurgql4uob...
+[2024-10-06 02:00:34] Token validation result: valid
+[2024-10-06 02:00:46] Script started
+[2024-10-06 02:00:46] Action received: validateToken
+[2024-10-06 02:00:46] Validating token: hurgql4uob...
+[2024-10-06 02:00:46] Token validation result: valid
+[2024-10-06 02:00:51] Script started
+[2024-10-06 02:00:51] Action received: validateToken
+[2024-10-06 02:00:51] Validating token: hurgql4uob...
+[2024-10-06 02:00:52] Token validation result: valid
+[2024-10-06 02:06:16] Script started
+[2024-10-06 02:06:16] Action received: getAuthUrl
+[2024-10-06 02:06:16] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=d704ce267a4ed400136fd6c7fc8c4a47
+[2024-10-06 02:06:17] Script started
+[2024-10-06 02:06:17] Action received: handleCallback
+[2024-10-06 02:06:17] Handling callback with code: mhja2ma24aprv5pbbnvj5165neoyvi
+[2024-10-06 02:06:18] Token received: fwmzl7ahbpvgzl8vdhe8hcqlorhktn
+[2024-10-06 02:06:19] Script started
+[2024-10-06 02:06:19] Action received: validateToken
+[2024-10-06 02:06:19] Validating token: fwmzl7ahbp...
+[2024-10-06 02:06:19] Token validation result: valid
+[2024-10-06 02:06:36] Script started
+[2024-10-06 02:06:36] Action received: getAuthUrl
+[2024-10-06 02:06:36] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=75816fc2005d05313443f17e0db68ff3
+[2024-10-06 02:06:37] Script started
+[2024-10-06 02:06:37] Action received: handleCallback
+[2024-10-06 02:06:37] Handling callback with code: boe48ht9n68gqyf34dd6wt78dw7ifl
+[2024-10-06 02:06:37] Token received: c5qlkknjjqwf7d2eci0za3hznt600o
+[2024-10-06 02:06:38] Script started
+[2024-10-06 02:06:38] Action received: validateToken
+[2024-10-06 02:06:38] Validating token: c5qlkknjjq...
+[2024-10-06 02:06:39] Token validation result: valid
+[2024-10-06 02:08:19] Script started
+[2024-10-06 02:08:19] Action received: validateToken
+[2024-10-06 02:08:19] Validating token: c5qlkknjjq...
+[2024-10-06 02:08:19] Token validation result: valid
+[2024-10-06 02:10:20] Script started
+[2024-10-06 02:10:20] Action received: getAuthUrl
+[2024-10-06 02:10:20] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=0b620096d9fdd41238336565339f47ca
+[2024-10-06 02:10:22] Script started
+[2024-10-06 02:10:22] Action received: handleCallback
+[2024-10-06 02:10:22] Handling callback with code: 25nzbrezfx82uo8y3h3m53caa2duk0
+[2024-10-06 02:10:22] Token received: v45k1ijv0w943l3wr99lm2v9hauc2l
+[2024-10-06 02:10:23] Script started
+[2024-10-06 02:10:23] Action received: validateToken
+[2024-10-06 02:10:23] Validating token: v45k1ijv0w...
+[2024-10-06 02:10:23] Token validation result: valid
+[2024-10-06 02:13:53] Script started
+[2024-10-06 02:13:53] Action received: validateToken
+[2024-10-06 02:13:53] Validating token: v45k1ijv0w...
+[2024-10-06 02:13:53] Token validation result: valid
+[2024-10-06 02:26:51] Script started
+[2024-10-06 02:26:51] Action received: validateToken
+[2024-10-06 02:26:51] Validating token: v45k1ijv0w...
+[2024-10-06 02:26:52] Token validation result: valid
+[2024-10-06 02:28:22] Script started
+[2024-10-06 02:28:22] Action received: validateToken
+[2024-10-06 02:28:22] Validating token: v45k1ijv0w...
+[2024-10-06 02:28:22] Token validation result: valid
+[2024-10-06 02:48:45] Script started
+[2024-10-06 02:48:45] No action specified
+[2024-10-06 02:48:46] Script started
+[2024-10-06 02:48:46] No action specified
+[2024-10-06 02:48:49] Script started
+[2024-10-06 02:48:49] No action specified
+[2024-10-06 02:49:00] Script started
+[2024-10-06 02:49:00] No action specified
+[2024-10-06 02:49:00] Script started
+[2024-10-06 02:49:00] No action specified
+[2024-10-06 02:58:32] Script started
+[2024-10-06 02:58:32] Action received: validateToken
+[2024-10-06 02:58:32] Validating token: v45k1ijv0w...
+[2024-10-06 02:58:32] Token validation result: valid
+[2024-10-06 02:58:37] Script started
+[2024-10-06 02:58:37] Action received: getAuthUrl
+[2024-10-06 02:58:37] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=bfl3cgnnqy26ngxsd88eg4epbfg7dq&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=53640a03938d72d33db188b59dba1297
+[2024-10-06 03:03:07] Script started
+[2024-10-06 03:03:07] Action received: getAuthUrl
+[2024-10-06 03:03:07] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=5d83e1daa560fd8168cdc034cca55f6f
+[2024-10-06 03:03:10] Script started
+[2024-10-06 03:03:10] Action received: handleCallback
+[2024-10-06 03:03:10] Handling callback with code: 1g5s8mc8arp2wyqdawx50nhyl6nax5
+[2024-10-06 03:03:14] Script started
+[2024-10-06 03:03:14] Action received: getAuthUrl
+[2024-10-06 03:03:14] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=9489355a233eb74bbac8d3c1069adb1a
+[2024-10-06 03:03:15] Script started
+[2024-10-06 03:03:15] Action received: handleCallback
+[2024-10-06 03:03:15] Handling callback with code: w1ba3h5v5igt8bcg4cq34e1m92c98b
+[2024-10-06 03:03:31] Script started
+[2024-10-06 03:03:31] Action received: getAuthUrl
+[2024-10-06 03:03:31] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=1b1b44eec2759a02b8efcc789253fa4b
+[2024-10-06 03:03:32] Script started
+[2024-10-06 03:03:32] Action received: handleCallback
+[2024-10-06 03:03:32] Handling callback with code: j9zvrdjomiou84wo1bnhvcwxnsbw3q
+[2024-10-06 03:04:14] Script started
+[2024-10-06 03:04:14] Action received: getAuthUrl
+[2024-10-06 03:04:14] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=4724b2b07d8edbf802fbcd28c6609d81
+[2024-10-06 03:04:15] Script started
+[2024-10-06 03:04:15] Action received: handleCallback
+[2024-10-06 03:04:15] Handling callback with code: 9yrp2yqb71h7afvfafh2477eiklim9
+[2024-10-06 03:05:12] Script started
+[2024-10-06 03:05:12] Action received: getAuthUrl
+[2024-10-06 03:05:12] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=ce054549b67cabab6c6bb5cd745c0516
+[2024-10-06 03:05:13] Script started
+[2024-10-06 03:05:13] Action received: handleCallback
+[2024-10-06 03:05:13] Handling callback with code: 6viwd3v4ifrahi6x7n08wxzt4eivl4
+[2024-10-06 03:05:16] Script started
+[2024-10-06 03:05:16] Action received: getAuthUrl
+[2024-10-06 03:05:16] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=5d7cd6319370de4d7325bdee568fa02d
+[2024-10-06 03:05:17] Script started
+[2024-10-06 03:05:17] Action received: handleCallback
+[2024-10-06 03:05:17] Handling callback with code: 5e6p3y1ij61l9iqh6ru9ycwqovfnkz
+[2024-10-06 03:05:21] Script started
+[2024-10-06 03:05:21] Action received: getAuthUrl
+[2024-10-06 03:05:21] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=6579108db69709cca2f899088830d477
+[2024-10-06 03:05:22] Script started
+[2024-10-06 03:05:22] Action received: handleCallback
+[2024-10-06 03:05:22] Handling callback with code: fgb0sduzt4msdep4ecxef6rt3ohitg
+[2024-10-06 03:09:46] Script started
+[2024-10-06 03:09:46] Action received: getAuthUrl
+[2024-10-06 03:09:46] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=4bddba43c2a5b811a3dffd544cdd9206
+[2024-10-06 03:09:47] Script started
+[2024-10-06 03:09:47] Action received: handleCallback
+[2024-10-06 03:09:47] Handling callback with code: weq3idbiyu7dsew5ufp33xals30h7q
+[2024-10-06 03:12:04] Script started
+[2024-10-06 03:12:04] Action received: getAuthUrl
+[2024-10-06 03:12:04] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=132955c6cdbb87707f664b6ffdabf060
+[2024-10-06 03:12:06] Script started
+[2024-10-06 03:12:06] Action received: handleCallback
+[2024-10-06 03:12:06] Handling callback with code: 6lical4apo2heq2slguaflbhq8yz8r
+[2024-10-06 03:13:55] Script started
+[2024-10-06 03:13:55] Action received: getAuthUrl
+[2024-10-06 03:13:55] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=3997370d8469a9e92fa96b4c4f261d8f
+[2024-10-06 03:13:57] Script started
+[2024-10-06 03:13:57] Action received: handleCallback
+[2024-10-06 03:13:57] Handling callback with code: qwuyaqy3okyymospx072mxq9ln77mb
+[2024-10-06 03:14:16] Script started
+[2024-10-06 03:14:16] Action received: getAuthUrl
+[2024-10-06 03:14:16] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=3kpxu4swh7yia5ej1f8nitc5grmezb&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=f5a12de9b847dc5be80fa46a1e77c738
+[2024-10-06 03:14:17] Script started
+[2024-10-06 03:14:17] Action received: handleCallback
+[2024-10-06 03:14:17] Handling callback with code: vlxjgbn0iqu6wkarw8pj6mt1jnypmw
+[2024-10-06 03:17:53] Script started
+[2024-10-06 03:17:53] Action received: getAuthUrl
+[2024-10-06 03:17:53] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=ek7dr2u2xs2qin960lx5dd2r4eo6yr&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=6853de34a9eb0881d2c3a3d4bf324466
+[2024-10-06 03:17:55] Script started
+[2024-10-06 03:17:55] Action received: handleCallback
+[2024-10-06 03:17:55] Handling callback with code: vc3zjywwrqj2gmaktobt3plhtnl10q
+[2024-10-06 03:17:56] Token received: 1injurfzdaapiqyi0d5qslhagstt3h
+[2024-10-06 03:17:57] Script started
+[2024-10-06 03:17:57] Action received: validateToken
+[2024-10-06 03:17:57] Validating token: 1injurfzda...
+[2024-10-06 03:17:57] Script started
+[2024-10-06 03:17:57] Action received: checkTwitchChannel
+[2024-10-06 03:17:57] Unknown action: checkTwitchChannel
+[2024-10-06 03:17:57] Token validation result: valid
+[2024-10-06 03:18:03] Script started
+[2024-10-06 03:18:03] Action received: checkTwitchChannel
+[2024-10-06 03:18:03] Unknown action: checkTwitchChannel
+[2024-10-06 03:23:01] Script started
+[2024-10-06 03:23:01] Action received: checkTwitchChannel
+[2024-10-06 03:23:01] Unknown action: checkTwitchChannel
+[2024-10-06 03:24:05] Script started
+[2024-10-06 03:24:05] Action received: getAuthUrl
+[2024-10-06 03:24:05] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=ek7dr2u2xs2qin960lx5dd2r4eo6yr&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=4f5972e7a0900857b618227f787e7def
+[2024-10-06 03:24:06] Script started
+[2024-10-06 03:24:06] Action received: handleCallback
+[2024-10-06 03:24:06] Handling callback with code: efb0p7otg8x54ow9xn146knakxxx4f
+[2024-10-06 03:24:06] Token received: j6sejyovmgbtcmwtz0mx07888vs2ni
+[2024-10-06 03:24:16] Script started
+[2024-10-06 03:24:16] Action received: getAuthUrl
+[2024-10-06 03:24:16] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=ek7dr2u2xs2qin960lx5dd2r4eo6yr&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=8cb9b288dbda4944eb478fd93d9c50a7
+[2024-10-06 03:24:17] Script started
+[2024-10-06 03:24:17] Action received: handleCallback
+[2024-10-06 03:24:17] Handling callback with code: 8hpq8cxsojwqbd0ltm0i55nxofsyk9
+[2024-10-06 03:24:17] Token received: zvc01h6qeoiazxpkaccksq4ebzkqpt
+[2024-10-06 03:26:40] Script started
+[2024-10-06 03:26:40] Action received: checkTwitchChannel
+[2024-10-06 03:26:40] Unknown action: checkTwitchChannel
+[2024-10-06 03:26:44] Script started
+[2024-10-06 03:26:44] Action received: validateToken
+[2024-10-06 03:26:44] Validating token: zvc01h6qeo...
+[2024-10-06 03:26:44] Script started
+[2024-10-06 03:26:44] Action received: checkTwitchChannel
+[2024-10-06 03:26:44] Unknown action: checkTwitchChannel
+[2024-10-06 03:26:44] Token validation result: valid
+[2024-10-06 03:26:45] Script started
+[2024-10-06 03:26:45] Action received: validateToken
+[2024-10-06 03:26:45] Validating token: zvc01h6qeo...
+[2024-10-06 03:26:45] Script started
+[2024-10-06 03:26:45] Action received: checkTwitchChannel
+[2024-10-06 03:26:45] Unknown action: checkTwitchChannel
+[2024-10-06 03:26:46] Token validation result: valid
+[2024-10-06 03:26:52] Script started
+[2024-10-06 03:26:52] Action received: getAuthUrl
+[2024-10-06 03:26:52] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=ek7dr2u2xs2qin960lx5dd2r4eo6yr&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=0678d830b5a92619f8255048e170db09
+[2024-10-06 03:26:53] Script started
+[2024-10-06 03:26:53] Action received: handleCallback
+[2024-10-06 03:26:53] Handling callback with code: z9a5uetvluzpkclbuts1pnjz0emgbb
+[2024-10-06 03:26:53] Token received: cc1r57iom963s8n0q0bivt2waqh9jr
+[2024-10-06 03:26:54] Script started
+[2024-10-06 03:26:54] Action received: validateToken
+[2024-10-06 03:26:54] Validating token: cc1r57iom9...
+[2024-10-06 03:26:54] Script started
+[2024-10-06 03:26:54] Action received: checkTwitchChannel
+[2024-10-06 03:26:54] Unknown action: checkTwitchChannel
+[2024-10-06 03:26:54] Token validation result: valid
+[2024-10-06 03:28:18] Script started
+[2024-10-06 03:28:18] Action received: checkTwitchChannel
+[2024-10-06 03:28:18] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:19] Script started
+[2024-10-06 03:28:19] Action received: checkTwitchChannel
+[2024-10-06 03:28:19] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:22] Script started
+[2024-10-06 03:28:22] Action received: validateToken
+[2024-10-06 03:28:22] Validating token: cc1r57iom9...
+[2024-10-06 03:28:22] Script started
+[2024-10-06 03:28:22] Action received: checkTwitchChannel
+[2024-10-06 03:28:22] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:23] Token validation result: valid
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: validateToken
+[2024-10-06 03:28:23] Validating token: cc1r57iom9...
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: checkTwitchChannel
+[2024-10-06 03:28:23] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: validateToken
+[2024-10-06 03:28:23] Validating token: cc1r57iom9...
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: checkTwitchChannel
+[2024-10-06 03:28:23] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: validateToken
+[2024-10-06 03:28:23] Validating token: cc1r57iom9...
+[2024-10-06 03:28:23] Token validation result: valid
+[2024-10-06 03:28:23] Script started
+[2024-10-06 03:28:23] Action received: checkTwitchChannel
+[2024-10-06 03:28:23] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:23] Token validation result: valid
+[2024-10-06 03:28:24] Token validation result: valid
+[2024-10-06 03:28:24] Script started
+[2024-10-06 03:28:24] Script started
+[2024-10-06 03:28:24] Action received: validateToken
+[2024-10-06 03:28:24] Validating token: cc1r57iom9...
+[2024-10-06 03:28:24] Action received: checkTwitchChannel
+[2024-10-06 03:28:24] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:25] Token validation result: valid
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Action received: validateToken
+[2024-10-06 03:28:25] Validating token: cc1r57iom9...
+[2024-10-06 03:28:25] Action received: checkTwitchChannel
+[2024-10-06 03:28:25] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Action received: validateToken
+[2024-10-06 03:28:25] Validating token: cc1r57iom9...
+[2024-10-06 03:28:25] Action received: checkTwitchChannel
+[2024-10-06 03:28:25] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Action received: checkTwitchChannel
+[2024-10-06 03:28:25] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Action received: validateToken
+[2024-10-06 03:28:25] Validating token: cc1r57iom9...
+[2024-10-06 03:28:25] Token validation result: valid
+[2024-10-06 03:28:25] Token validation result: valid
+[2024-10-06 03:28:25] Token validation result: valid
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Script started
+[2024-10-06 03:28:25] Action received: validateToken
+[2024-10-06 03:28:25] Validating token: cc1r57iom9...
+[2024-10-06 03:28:26] Action received: checkTwitchChannel
+[2024-10-06 03:28:26] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:26] Script started
+[2024-10-06 03:28:26] Script started
+[2024-10-06 03:28:26] Action received: validateToken
+[2024-10-06 03:28:26] Validating token: cc1r57iom9...
+[2024-10-06 03:28:26] Action received: checkTwitchChannel
+[2024-10-06 03:28:26] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:26] Script started
+[2024-10-06 03:28:26] Action received: validateToken
+[2024-10-06 03:28:26] Validating token: cc1r57iom9...
+[2024-10-06 03:28:26] Script started
+[2024-10-06 03:28:26] Action received: checkTwitchChannel
+[2024-10-06 03:28:26] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:26] Token validation result: valid
+[2024-10-06 03:28:26] Token validation result: valid
+[2024-10-06 03:28:26] Token validation result: valid
+[2024-10-06 03:28:30] Script started
+[2024-10-06 03:28:30] Action received: checkTwitchChannel
+[2024-10-06 03:28:30] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:33] Script started
+[2024-10-06 03:28:33] Action received: validateToken
+[2024-10-06 03:28:33] Validating token: cc1r57iom9...
+[2024-10-06 03:28:33] Script started
+[2024-10-06 03:28:33] Action received: checkTwitchChannel
+[2024-10-06 03:28:33] Unknown action: checkTwitchChannel
+[2024-10-06 03:28:33] Token validation result: valid
+[2024-10-06 03:30:58] Script started
+[2024-10-06 03:30:58] Action received: getAuthUrl
+[2024-10-06 03:30:58] Auth URL generated: https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=ek7dr2u2xs2qin960lx5dd2r4eo6yr&redirect_uri=https://mgejfneokgddddkegpcaooeoolejebaf.chromiumapp.org/&scope=user:read:email&state=8de12b57ddef1245fdf09341faf9d230
+[2024-10-06 03:30:59] Script started
+[2024-10-06 03:30:59] Action received: handleCallback
+[2024-10-06 03:30:59] Handling callback with code: h5i53mk0m41j28r0a8mni8cf95r8tz
+[2024-10-06 03:31:00] Token received: j0qg2i9usf21ev42ansr78l995tbjt
+[2024-10-06 03:31:01] Script started
+[2024-10-06 03:31:01] Action received: validateToken
+[2024-10-06 03:31:01] Validating token: j0qg2i9usf...
+[2024-10-06 03:31:01] Script started
+[2024-10-06 03:31:01] Action received: checkTwitchChannel
+[2024-10-06 03:31:01] Unknown action: checkTwitchChannel
+[2024-10-06 03:31:01] Token validation result: valid
+[2024-10-06 03:33:37] Script started
+[2024-10-06 03:33:37] Script started
+[2024-10-06 03:33:37] Action received: validateToken
+[2024-10-06 03:33:37] Validating token: j0qg2i9usf...
+[2024-10-06 03:33:37] Action received: checkTwitchChannel
+[2024-10-06 03:33:37] Unknown action: checkTwitchChannel
+[2024-10-06 03:33:37] Token validation result: valid
+[2024-10-06 03:33:39] Script started
+[2024-10-06 03:33:39] Script started
+[2024-10-06 03:33:39] Action received: validateToken
+[2024-10-06 03:33:39] Validating token: j0qg2i9usf...
+[2024-10-06 03:33:39] Action received: checkTwitchChannel
+[2024-10-06 03:33:39] Unknown action: checkTwitchChannel
+[2024-10-06 03:33:39] Token validation result: valid
+[2024-10-06 03:33:58] Script started
+[2024-10-06 03:33:58] Action received: checkTwitchChannel
+[2024-10-06 03:33:58] Unknown action: checkTwitchChannel
+[2024-10-06 03:33:59] Script started
+[2024-10-06 03:33:59] Action received: checkTwitchChannel
+[2024-10-06 03:33:59] Unknown action: checkTwitchChannel
+[2024-10-06 03:34:03] Script started
+[2024-10-06 03:34:03] Action received: validateToken
+[2024-10-06 03:34:03] Validating token: j0qg2i9usf...
+[2024-10-06 03:34:03] Script started
+[2024-10-06 03:34:03] Action received: checkTwitchChannel
+[2024-10-06 03:34:03] Unknown action: checkTwitchChannel
+[2024-10-06 03:34:03] Token validation result: valid

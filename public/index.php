@@ -1,13 +1,26 @@
 <?php
 
-require 'config/config.php';
-require 'src/OAuthHandler.php';
+require '../config/config.php';
+require '../src/OAuthHandler.php';
+
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Function to log messages
+function logMessage($message) {
+	file_put_contents('debug.log', date('[Y-m-d H:i:s] ') . $message . PHP_EOL, FILE_APPEND);
+}
+
+logMessage("Script started");
 
 // Load the database connection
-$pdo = require 'config/config.php';
+$pdo = require '../config/config.php';
 
 $oauth = new OAuthHandler();
 
+<<<<<<< Updated upstream
 // Check if it's an API request
 if (isset($_GET['action'])) {
     header('Content-Type: application/json');
@@ -73,3 +86,47 @@ function getBearerToken() {
     }
     return null;
 }
+=======
+// Check if there's an action parameter
+if (isset($_GET['action'])) {
+	logMessage("Action received: " . $_GET['action']);
+	switch ($_GET['action']) {
+	case 'getAuthUrl':
+		$authUrl = $oauth->getAuthUrl();
+		logMessage("Auth URL generated: " . $authUrl);
+		echo json_encode(['authUrl' => $authUrl]);
+		exit;
+	case 'handleCallback':
+		if (isset($_GET['code'])) {
+			logMessage("Handling callback with code: " . $_GET['code']);
+			$token = $oauth->handleCallback($_GET['code']);
+			logMessage("Token received: " . $token);
+			echo json_encode(['access_token' => $token]);
+		} else {
+			logMessage("No code provided in callback");
+			echo json_encode(['error' => 'No code provided']);
+		}
+		exit;
+	case 'validateToken':
+		$input = json_decode(file_get_contents('php://input'), true);
+		$accessToken = $input['accessToken'] ?? '';
+		logMessage("Validating token: " . substr($accessToken, 0, 10) . '...');
+		$isValid = $oauth->validateToken($accessToken);
+		logMessage("Token validation result: " . ($isValid ? 'valid' : 'invalid'));
+		echo json_encode(['valid' => $isValid]);
+		exit;
+	case 'submitFeedback':
+		logMessage("Submitting feedback");
+		// Handle feedback submission (implement this part)
+		exit;
+	default:
+		logMessage("Unknown action: " . $_GET['action']);
+		echo json_encode(['error' => 'Unknown action']);
+		exit;
+	}
+}
+
+logMessage("No action specified");
+// If no action is specified, show a default page or handle as needed
+echo "Welcome to the Twitch Feedback API. Please use the Chrome extension to interact with this service.";
+>>>>>>> Stashed changes
