@@ -8,6 +8,35 @@ $pdo = require 'config/config.php';
 
 $oauth = new OAuthHandler();
 
+// Check if it's an API request
+if (isset($_GET['action'])) {
+    header('Content-Type: application/json');
+    
+    switch ($_GET['action']) {
+        case 'checkTwitchChannel':
+            if (!isset($_GET['username'])) {
+                echo json_encode(['error' => 'Username not provided']);
+                exit;
+            }
+            
+            $username = $_GET['username'];
+            $accessToken = getBearerToken();
+            
+            if (!$accessToken) {
+                echo json_encode(['error' => 'No access token provided']);
+                exit;
+            }
+            
+            $isChannel = $oauth->checkTwitchChannel($username, $accessToken);
+            echo json_encode(['isChannel' => $isChannel]);
+            exit;
+        
+        default:
+            echo json_encode(['error' => 'Unknown action']);
+            exit;
+    }
+}
+
 // If there's no OAuth code, redirect to Twitch login
 if (!isset($_GET['code'])) {
     // Redirect the user to Twitch for authorization
@@ -32,4 +61,15 @@ if (!isset($_GET['code'])) {
     ]);
 
     echo "<br>User feedback stored successfully!";
+}
+
+// Function to get the bearer token from the Authorization header
+function getBearerToken() {
+    $headers = apache_request_headers();
+    if (isset($headers['Authorization'])) {
+        if (preg_match('/Bearer\s(\S+)/', $headers['Authorization'], $matches)) {
+            return $matches[1];
+        }
+    }
+    return null;
 }

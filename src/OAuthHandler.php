@@ -69,4 +69,26 @@ class OAuthHandler {
         $body = json_decode($response->getBody(), true);
         return $body['data'][0]; // Return the first user (should be only one)
     }
+
+    // this needs a comment
+    public function checkTwitchChannel($username, $accessToken) {
+        $client = new Client([
+            'headers' => [
+                'Authorization' => 'Bearer ' . $accessToken,
+                'Client-Id' => $this->clientId,
+            ]
+        ]);
+
+        try {
+            // Make request to Twitch API to get user information
+            $response = $client->get('https://api.twitch.tv/helix/users?login=' . $username);
+            $body = json_decode($response->getBody(), true);
+            
+            // If the API returns data for this username, it's a valid channel
+            return !empty($body['data']);
+        } catch (Exception $e) {
+            // If there's an error (e.g., invalid token), assume it's not a valid channel
+            return false;
+        }
+    }
 }
