@@ -83,7 +83,8 @@ if (isset($_GET['action'])) {
             echo json_encode(['isChannel' => $isChannel]);
             exit;
         case 'validateToken':
-            $accessToken = getBearerToken();
+            $input = json_decode(file_get_contents('php://input'), true);
+            $accessToken = $input['accessToken'] ?? null;
             if (!$accessToken) {
                 logMessage("No access token provided for validation");
                 echo json_encode(['error' => 'No access token provided']);
