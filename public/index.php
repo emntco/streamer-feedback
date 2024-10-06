@@ -8,6 +8,16 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+// Add CORS headers
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, Authorization');
+
+// Handle preflight requests
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    exit(0);
+}
+
 // Function to log messages
 function logMessage($message) {
     file_put_contents('debug.log', date('[Y-m-d H:i:s] ') . $message . PHP_EOL, FILE_APPEND);
@@ -28,15 +38,25 @@ if (isset($_GET['action'])) {
     switch ($_GET['action']) {
         case 'getAuthUrl':
             $authUrl = $oauth->getAuthUrl();
-            logMessage("Auth URL generated: " . $authUrl);
-            echo json_encode(['authUrl' => $authUrl]);
+            if ($authUrl) {
+                logMessage("Auth URL generated: " . $authUrl);
+                echo json_encode(['authUrl' => $authUrl]);
+            } else {
+                logMessage("Failed to generate Auth URL");
+                echo json_encode(['error' => 'Failed to generate Auth URL']);
+            }
             exit;
         case 'handleCallback':
             if (isset($_GET['code'])) {
                 logMessage("Handling callback with code: " . $_GET['code']);
                 $token = $oauth->handleCallback($_GET['code']);
-                logMessage("Token received: " . $token);
-                echo json_encode(['access_token' => $token]);
+                if ($token) {
+                    logMessage("Token received: " . $token);
+                    echo json_encode(['access_token' => $token]);
+                } else {
+                    logMessage("Failed to obtain token");
+                    echo json_encode(['error' => 'Failed to obtain token']);
+                }
             } else {
                 logMessage("No code provided in callback");
                 echo json_encode(['error' => 'No code provided']);
