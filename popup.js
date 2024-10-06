@@ -6,12 +6,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     checkAuthStatus();
 
+    let debounceTimer;
     authButton.addEventListener('click', function () {
-        if (authButton.textContent === 'Login with Twitch') {
-            chrome.runtime.sendMessage({ action: "initiateAuth" });
-        } else {
-            logout();
-        }
+        console.log('Auth button clicked'); // Add this line for debugging
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+            if (authButton.textContent === 'Login with Twitch') {
+                chrome.runtime.sendMessage({ action: "initiateAuth" });
+            } else {
+                logout();
+            }
+        }, 300); // 300ms debounce time
     });
 
     feedbackForm.addEventListener('submit', function (event) {
@@ -102,7 +107,6 @@ function submitFeedback() {
             })
                 .then(response => response.json())
                 .then(data => {
-                    console.log('Feedback submitted:', data);
                     document.getElementById('feedback-text').value = '';
                     alert('Feedback submitted successfully!');
                 })
@@ -119,7 +123,6 @@ function submitFeedback() {
 
 function logout() {
     chrome.storage.local.remove('accessToken', function () {
-        console.log('Access token removed');
         showLoginButton();
     });
 }

@@ -3,8 +3,6 @@ let authInProgress = false;
 let authTabId = null;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Message received:", request);
-    console.log("Message received:", request);
     if (request.action === "initiateAuth") {
         initiateAuth();
     } else if (request.action === "checkAuthStatus") {
@@ -24,7 +22,12 @@ function initiateAuth() {
     authInProgress = true;
 
     fetch(`${BACKEND_URL}?action=getAuthUrl`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             if (data.authUrl) {
                 chrome.tabs.create({ url: data.authUrl }, (tab) => {
@@ -32,19 +35,19 @@ function initiateAuth() {
                     startAuthStatusCheck();
                 });
             } else {
-                console.error('Failed to get auth URL from backend');
+                console.error('Failed to get auth URL from backend:', data);
                 authInProgress = false;
             }
         })
         .catch(error => {
-            console.error('Error initiating auth:', error);
+            console.error('Error initiating auth:', error.message);
             authInProgress = false;
         });
 }
 
 function startAuthStatusCheck() {
     let checkCount = 0;
-    const maxChecks = 120; // 2 minutes of checking
+    const maxChecks = 15; // 15 seconds of checking
     const interval = setInterval(() => {
         if (checkCount >= maxChecks) {
             clearInterval(interval);
@@ -144,14 +147,14 @@ function checkIfTwitchChannel(path, sendResponse) {
                     'Authorization': `Bearer ${data.accessToken}`
                 }
             })
-            .then(response => response.json())
-            .then(data => {
-                sendResponse({ isChannel: data.isChannel });
-            })
-            .catch(error => {
-                console.error('Error checking Twitch channel:', error);
-                sendResponse({ isChannel: false });
-            });
+                .then(response => response.json())
+                .then(data => {
+                    sendResponse({ isChannel: data.isChannel });
+                })
+                .catch(error => {
+                    console.error('Error checking Twitch channel:', error);
+                    sendResponse({ isChannel: false });
+                });
         } else {
             sendResponse({ isChannel: false });
         }
