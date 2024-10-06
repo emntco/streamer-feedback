@@ -4,24 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitch Feedback</title>
+    <title>Streamer Feedback by @emntco</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="login-container">
-        <button id="login-button">Login with Twitch</button>
-    </div>
-    <div id="feedback-container" style="display: none;">
-        <h2>Leave Feedback</h2>
-        <form id="feedback-form">
-            <textarea id="feedback-text" rows="4" placeholder="Enter your feedback here"></textarea>
-            <button type="submit">Submit Feedback</button>
-        </form>
-        <button id="logout-button">Logout</button>
-    </div>
-    <div id="not-on-channel-message" style="display: none;">
-        <p>You must be on a Twitch channel to leave feedback.</p>
+    <div id="app-container">
+        <h2>Streamer Feedback by <a href="https://emnt.co" target="_blank">@emntco</a></h2>
+        
+        <div id="feedback-container" style="display: none;">
+            <div id="feedback-for"></div>
+            <div id="not-on-channel-message" style="display: none;">
+                <p>You must be viewing a Twitch channel to leave feedback.</p>
+            </div>
+            <form id="feedback-form">
+                <textarea id="feedback-text" maxlength="280" placeholder="Enter your feedback here (max 280 characters)"></textarea>
+                <div class="button-container">
+                    <button type="submit" class="form-button">Submit</button>
+                    <button type="reset" class="form-button">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="control-container">
+            <button id="auth-button" class="control-button">Login with Twitch</button>
+        </div>
     </div>
     <script src="popup.js"></script>
 </body>

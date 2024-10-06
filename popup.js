@@ -1,19 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     checkIfOnTwitchChannel();
-    const loginButton = document.getElementById('login-button');
-    const logoutButton = document.getElementById('logout-button');
-    const loginContainer = document.getElementById('login-container');
+    const authButton = document.getElementById('auth-button');
     const feedbackContainer = document.getElementById('feedback-container');
     const feedbackForm = document.getElementById('feedback-form');
 
     checkAuthStatus();
 
-    loginButton.addEventListener('click', function () {
-        chrome.runtime.sendMessage({ action: "initiateAuth" });
-    });
-
-    logoutButton.addEventListener('click', function () {
-        logout();
+    authButton.addEventListener('click', function () {
+        if (authButton.textContent === 'Login with Twitch') {
+            chrome.runtime.sendMessage({ action: "initiateAuth" });
+        } else {
+            logout();
+        }
     });
 
     feedbackForm.addEventListener('submit', function (event) {
@@ -39,6 +37,9 @@ function checkIfOnTwitchChannel() {
                 }
                 if (response && response.isChannel) {
                     enableFeedbackForm();
+                    // Display the channel name
+                    const channelName = new URL(tabs[0].url).pathname.split('/').pop();
+                    document.getElementById('feedback-for').textContent = `Leaving feedback for: @${channelName}`;
                 } else {
                     disableFeedbackForm();
                 }
@@ -67,20 +68,22 @@ function checkAuthStatus() {
     chrome.runtime.sendMessage({ action: "checkAuthStatus" }, (response) => {
         if (response.isAuthenticated) {
             showFeedbackForm();
+            document.getElementById('auth-button').textContent = 'Logout';
         } else {
             showLoginButton();
+            document.getElementById('auth-button').textContent = 'Login with Twitch';
         }
     });
 }
 
 function showLoginButton() {
-    document.getElementById('login-container').style.display = 'block';
     document.getElementById('feedback-container').style.display = 'none';
+    document.getElementById('control-container').style.display = 'flex';
 }
 
 function showFeedbackForm() {
-    document.getElementById('login-container').style.display = 'none';
     document.getElementById('feedback-container').style.display = 'block';
+    document.getElementById('control-container').style.display = 'flex';
 }
 
 function submitFeedback() {

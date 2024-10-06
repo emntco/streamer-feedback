@@ -1,24 +1,83 @@
 body {
     width: 300px;
-    padding: 10px;
+    padding: 15px;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
 }
 
-button {
+#app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #9146FF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#auth-container,
+#feedback-container,
+#control-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#feedback-form {
+    width: 100%;
+}
+
+#feedback-text {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-button,
+.auth-button,
+.control-button {
     background-color: #9146FF;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 14px;
-    margin-top: 10px;
+    border-radius: 4px;
 }
 
-textarea {
-    width: 100%;
+button:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.control-button {
+    background-color: #6441A4;
+}
+
+#feedback-for {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6441A4;
+}
+
+#not-on-channel-message {
+    color: #FF0000;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
-#feedback-container {
-    margin-top: 20px;
+#auth-container,
+#control-container {
+    display: flex;
+    justify-content: flex-end;
 }
